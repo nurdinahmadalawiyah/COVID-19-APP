@@ -11,7 +11,7 @@ class ProvinsiScreen extends StatelessWidget {
     Data dataCovid = Provider.of<Data>(context);
     return Scaffold(
         appBar: AppBar(
-          title: Text("Covid App"),
+          title: const Text("Covid App"),
         ),
         body: FutureBuilder(
           future: dataCovid.fetchData(),

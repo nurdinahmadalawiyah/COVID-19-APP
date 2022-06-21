@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: ChangeNotifierProvider(
         create: (context) => Data(),
-        child: ProvinsiScreen()),
+        child: const ProvinsiScreen()),
     );
   }
 }

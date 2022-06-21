@@ -19,15 +19,14 @@ class Data with ChangeNotifier {
             // updatedAt: data['updatedAt'],
             provinsi: data['provinsi'],
             positif: data['positif'],
-            dalamPerawatan: data['dalamPerawatan'],
+            dalamPerawatan: data['dalam_perawatan'],
             meninggal: data['meninggal'],
             sembuh: data['sembuh'],
-            rasioKematian: data['rasioKematian'],
-            mapId: data['mapId'],
+            rasioKematian: data['rasio_kematian'],
+            mapId: data['map_id'],
           ),
         );
       }
-      print(dataProvinsi[0].provinsi);
     }
   }
 }
